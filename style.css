@@ -37,7 +37,7 @@ a {
 }
 
 /* למכשירים ניידים */
-@media only screen and (min-device-width: 10px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
   * {
     background-color: red;
   }
@@ -54,6 +54,7 @@ a {
     background-color: black;
     display: flex;
     justify-content: space-evenly;
+    
   }
 
   li {
@@ -75,7 +76,7 @@ a {
   }
 }
 /* מחשב נייח */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1110px) {
   * {
     background-color: rgba(0, 0, 0, 0.945);
   }
@@ -83,6 +84,8 @@ a {
     display: flex;
     background-color: black;
     justify-content: space-between;
+    align-items: center;
+
   }
   #aviLogo {
     width: 11%;
