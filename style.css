@@ -1,6 +1,9 @@
 /* לטאבלט */
 
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   background-color: blueviolet;
 }
 nav {
@@ -23,7 +26,6 @@ li {
   font-size: 28px;
   color: white;
   list-style: none;
-  font-family: "Suez One", serif;
 }
 a {
   background-color: black;
@@ -54,7 +56,6 @@ a {
     background-color: black;
     display: flex;
     justify-content: space-evenly;
-    
   }
 
   li {
@@ -62,7 +63,7 @@ a {
     font-size: 10px;
     color: white;
     list-style: none;
-    font-family: "Suez One", serif;
+    /* transition: ; */
   }
   a {
     background-color: black;
@@ -73,6 +74,11 @@ a {
     height: 90%;
     opacity: 0.2;
     z-index: -1;
+  }
+  section div {
+    height: 108px;
+    width: 290px;
+    background-color: yellow;
   }
 }
 /* מחשב נייח */
@@ -85,7 +91,6 @@ a {
     background-color: black;
     justify-content: space-between;
     align-items: center;
-
   }
   #aviLogo {
     width: 11%;
@@ -102,7 +107,6 @@ a {
     font-size: 39px;
     color: white;
     list-style: none;
-    font-family: "Suez One", serif;
   }
   a {
     background-color: black;
