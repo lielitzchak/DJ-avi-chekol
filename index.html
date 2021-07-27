@@ -12,11 +12,15 @@
     <header>
       <nav>
         <ul>
-          <a href=""><li>האירועים שלנו</li></a>
-          <a href=""><li>יצירת קשר</li></a>
-          <a href=""><li>המלצות</li></a>
-          <a href=""><li>שירותים</li></a>
-          <a href=""><li>עלינו</li></a>
+          <li>
+            <a href="">האירועים שלנו </a>
+          </li>
+
+          <li><a href="#contect">יצירת קשר </a></li>
+
+          <li><a href="/Recom.html">המלצות </a></li>
+          <li><a href="">שירותים</a></li>
+          <li><a href="">עלינו</a></li>
         </ul>
         <img src="/media/img/logo.jpg" alt="avi chekol logo" id="aviLogo" />
       </nav>
@@ -26,54 +30,108 @@
       <video class="aviVideo" autoplay muted loop>
         <source src="/media/video/aviVideo.55" type="video/mp4" />
       </video>
-      <section class="categoriesForDiv">
+      <section class="categoriesForArticle">
         <article class="Categories">
-          <img src="/media/img/aviInClub.jpg" alt="" />
-          <h1>האירועים שלנו</h1>
-          <p>
-            kjhuytfrdf Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Minima, odio? Culpa distinctio ea perspiciatis voluptates, ex
-            recusandae fugit incidunt. Minima? Sint possimus, quod temporibus
-            ipsam laudantium rerum cum veniam odio? Harum fugit possimus
-          </p>
-          
+          <a href="">
+            <img src="/media/img/aviInClub.jpg" alt="" class="imgTitel" />
+            <h1 class="TitlSmallImages">האירועים שלנו</h1>
+            <p>
+              kjhuytfrdf Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Minima, odio? Culpa distinctio ea perspiciatis voluptates,
+              ex recusandae fugit incidunt. Minima? Sint possimus, quod
+              temporibus ipsam laudantium rerum cum veniam odio? Harum fugit
+              possimus
+            </p>
+          </a>
         </article>
         <article class="Categories">
-          <img src="/media/img/aviPic.jpg" alt="" />
-          <h1>המלצות</h1>
-          <p>
-            kjhuytfrdf Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Minima, odio? Culpa distinctio ea perspiciatis voluptates, ex
-            recusandae fugit incidunt. Minima? Sint possimus, quod temporibus
-            ipsam laudantium rerum cum veniam odio? Harum fugit possimus
-          </p>
+          <a href=""
+            ><img
+              src="/media/img/Recommendations.jpg"
+              alt=""
+              class="imgTitel"
+            />
+
+            <h1 class="TitlSmallImages">המלצות</h1>
+            <p>
+              kjhuytfrdf Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Minima, odio? Culpa distinctio ea perspiciatis voluptates,
+              ex recusandae fugit incidunt. Minima? Sint possimus, quod
+              temporibus ipsam laudantium rerum cum veniam odio? Harum fugit
+              possimus
+            </p>
+          </a>
         </article>
         <article class="Categories">
-          <img src="/media/img/aviWithCustomers.jpg" alt="" />
-          <h1>שירותים</h1>
-          <p>
-            לעשות בדף חתונות, בר/בת מצווה, בריתות ולהוסיף עוד כל מיני דברים ואז
-            להוסיף אינפוט בתוך הדף kjhuytfrdf Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Minima, odio? Culpa distinctio ea
-            perspiciatis voluptates, ex recusandae fugit incidunt. Minima? Sint
-            possimus, quod temporibus
-          </p>
+          <a href=""
+            ><img
+              src="/media/img/aviWithCustomers.jpg"
+              alt=""
+              class="imgTitel"
+            />
+            <h1 class="TitlSmallImages">שירותים</h1>
+            <p>
+              לעשות בדף חתונות, בר/בת מצווה, בריתות ולהוסיף עוד כל מיני דברים
+              ואז להוסיף אינפוט בתוך הדף kjhuytfrdf Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Minima, odio? Culpa distinctio ea
+              perspiciatis voluptates, ex recusandae fugit incidunt. Minima?
+              Sint possimus, quod temporibus
+            </p></a
+          >
         </article>
 
         <article class="Categories">
-          <img src="/media/img/aviPic.jpg" alt="" />
-          <h1>עלינו</h1>
-          <p>
-            kjhuytfrdf Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Minima, odio? Culpa distinctio ea perspiciatis voluptates, ex
-            recusandae fugit incidunt. Minima? Sint possimus, quod temporibus
-            ipsam laudantium rerum cum veniam odio? Harum fugit possimus
-          </p>
+          <a href=""
+            ><img src="/media/img/aviPic.jpg" alt="" class="imgTitel" />
+            <h1 class="TitlSmallImages">עלינו</h1>
+            <p>
+              kjhuytfrdf Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Minima, odio? Culpa distinctio ea perspiciatis voluptates,
+              ex recusandae fugit incidunt. Minima? Sint possimus, quod
+              temporibus ipsam laudantium rerum cum veniam odio? Harum fugit
+              possimus
+            </p>
+          </a>
         </article>
+      </section>
+      <hr class="hr" />
+      <section class="theForm">
+        <form action="" id="contect">
+          <br />
+          <br />
+          <label for="fname">שם פרטי</label>
+          <br />
+          <input type="text" required placeholder="מה שמך?" />
+          <br />
+          <br />
+          <label for="lname">שם משפחה</label>
+          <br />
+          <input type="text" required placeholder="מה שם משפחתך ?" />
+          <br />
+          <br />
+          <label for="">תאריך עליו אנו מדברים</label>
+          <br />
+          <input type="date" name="" id="" placeholder="תאריך לידה" />
+          <br />
+          <br />
+          <label for="">אימייל</label>
+          <br />
+          <input type="email" name="" id="" placeholder="E-mail" />
+          <br />
+          <br />
+          <button>שלח</button>
+          <br />
+          <br />
+        </form>
       </section>
     </main>
     <footer>
-      <!-- לשים פה את האימוגים עבור לקישורים חיצוניים  -->
+      <section class="logosImg">
+        <img src="/media/img/instagramLogo.png" alt="" />
+        <img src="/media/img/facebookLogo.png" alt="" />
+        <img src="/media/img/gmailLogo.png" alt="" />
+        <img src="/media/img/YouTubeLogo.png" alt="" />
+      </section>
     </footer>
   </body>
 </html>
