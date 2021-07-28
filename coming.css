@@ -1,9 +1,118 @@
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+background-color: black;}
+nav {
+  display: flex;
   background-color: black;
-  overflow: hidden;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#aviLogo {
+  width: 11%;
+}
+ul {
+  width: 60vw;
+  background-color:black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  font-size: 28px;
+  color:white;
+  list-style: none;
+}
+
+a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
 }
 
 video {
   width: 100vw;
   height: 100vh;
-}
+} 
+@media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
+  * {
+    background-color:black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    word-break: keep-all;
+  }
+  #aviLogo {
+    width: 11%;
+  }
+  ul {
+    width: 60vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  li {
+    background-color: black;
+    font-size: 86%;
+    color: white;
+    list-style: none;
+  }
+  a {
+    background-color: black;
+    text-decoration: none;
+  }
+  video {
+    width: 100vw;
+    height: 100vh;
+  } }
+  /* מחשב נייח */
+@media only screen and (min-width: 1110px) {
+  * {
+    overflow: hidden;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+  nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #aviLogo {
+    width: 11%;
+  }
+  ul {
+    width: 60vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  li {
+    background-color: black;
+    font-size: 39px;
+    color: white;
+    list-style: none;
+  }
+  a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  } 
+   video {
+    width: 100vw;
+    height: 100vh;
+  }
+} 

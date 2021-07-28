@@ -98,8 +98,24 @@ form input {
   width: 20%;
   height: 51px;
   font-size: 20px;
-  /* size: 100px; */
   color: black;
+}
+.btnClick {
+  border: none;
+  border-radius: 40px;
+  background-color: white;
+  width: 20%;
+  height: 51px;
+  font-size: 20px;
+  color: var(--black);
+}
+.logosImg {
+  display: flex;
+  justify-content: center;
+}
+.logosImg .logoFooter {
+  width: 40%;
+  height: auto;
 }
 
 /* למכשירים ניידים */
@@ -174,7 +190,6 @@ form input {
     width: 20%;
     height: 51px;
     font-size: 20px;
-    /* size: 100px; */
     color: black;
   }
 }
@@ -264,7 +279,14 @@ form input {
     width: 20%;
     height: 51px;
     font-size: 20px;
-    /* size: 100px; */
     color: black;
   }
+  .logosImg {
+    display: flex;
+    justify-content: center;
+  }
+ .logosImg .logoFooter {
+   width: 40%;
+   height: auto;
+ }
 }

@@ -34,44 +34,60 @@ a {
   text-decoration: none;
 }
 .hr {
-    border-color: rgba(61, 60, 60, 0.705);
-    color: rgba(61, 60, 60, 0.705);
-    background-color: rgba(61, 60, 60, 0.705);
-  }
-  .Recommendations .RecommendationsIMG {
-      width: 50%;
-      height: auto;
+  border-color: rgba(61, 60, 60, 0.705);
+  color: rgba(61, 60, 60, 0.705);
+  background-color: rgba(61, 60, 60, 0.705);
+}
+.Recommendations .RecommendationsIMG {
+  width: 50%;
+  height: auto;
+}
 
-  }
-  
-  form {
-    font-size: 151%;
-    text-align: center;
-    color: white;
-  }
-  input {
-    border: none;
-    background-color: white;
-    border-radius: 40px;
-    height: 40px;
-    width: 258px;
-    text-align: center;
-  }
-  
-  button {
-    border: none;
-    background-color: white;
-    width: 20%;
-    height: 51px;
-    size: 100px;
-    color: black;
-    border: none;
-    border-radius: 40px;
-  }
-  .logosImg img {
-    height: auto;
-    width: 4%;
-  }
+form {
+  font-size: 151%;
+  text-align: center;
+  color: white;
+}
+input {
+  border: none;
+  background-color: white;
+  border-radius: 40px;
+  height: 40px;
+  width: 258px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: white;
+  width: 20%;
+  height: 51px;
+  size: 100px;
+  color: black;
+  border: none;
+  border-radius: 40px;
+}
+.logosImg img {
+  height: auto;
+  width: 4%;
+}
+.btnClick {
+  border: none;
+  border-radius: 40px;
+  background-color: white;
+  width: 20%;
+  height: 51px;
+  font-size: 20px;
+  color:black;
+}
+.logosImg {
+  display: flex;
+  justify-content: center;
+}
+.logosImg .logoFooter {
+  width: 40%;
+  height: auto;
+}
 /* למחשב נייד */
 @media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
   * {
@@ -108,10 +124,29 @@ a {
     background-color: black;
     text-decoration: none;
   }
+ 
   .Recommendations .RecommendationsIMG {
-      width: 58%;
-      height: auto;
+    width: 100%;
+    height: auto;
+    border: 5px solid;
   }
+  .btnClick {
+  border: none;
+  border-radius: 40px;
+  background-color: white;
+  width: 20%;
+  height: 51px;
+  font-size: 20px;
+  color:black;
+}
+.logosImg {
+  display: flex;
+  justify-content: center;
+}
+.logosImg .logoFooter {
+  width: 40%;
+  height: auto;
+}
 }
 /* למחשב נייח */
 @media only screen and (min-width: 1110px) {
@@ -161,41 +196,50 @@ a {
     height: auto;
   }
   .hr {
-  border-color: rgba(61, 60, 60, 0.705);
-  color: rgba(61, 60, 60, 0.705);
-  background-color: rgba(61, 60, 60, 0.705);
-}
+    border-color: rgba(61, 60, 60, 0.705);
+    color: rgba(61, 60, 60, 0.705);
+    background-color: rgba(61, 60, 60, 0.705);
+  }
 
-form {
-  font-size: 151%;
-  text-align: center;
-  color: white;
-}
-input {
-  border: none;
-  background-color: white;
-  border-radius: 40px;
-  height: 40px;
-  width: 258px;
-  text-align: center;
-}
+  form {
+    font-size: 151%;
+    text-align: center;
+    color: white;
+  }
+  input {
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    height: 40px;
+    width: 258px;
+    text-align: center;
+  }
 
-button .btnClick {
-  border: none;
-  background-color: white;
-  width: 20%;
-  height: 51px;
-  size: 100px;
-  color: black;
-  border: none;
-  border-radius: 40px;
-}
-button .btnClick {
+  button .btnClick {
+    border: none;
+    background-color: white;
     width: 20%;
-  height: 5px;
-}
-.logosImg img {
-  height: auto;
-  width: 4%;
-}
+    height: 51px;
+    size: 100px;
+    color: black;
+    border: none;
+    border-radius: 40px;
+  }
+  button .btnClick {
+    color: black;
+    width: 20%;
+    height: 5px;
+  }
+  .logosImg img {
+    height: auto;
+    width: 4%;
+  }
+  .logosImg {
+    display: flex;
+    justify-content: center;
+  }
+ .logosImg .logoFooter {
+   width: 40%;
+   height: auto;
+ }
 }
