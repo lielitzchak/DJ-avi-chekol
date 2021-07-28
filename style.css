@@ -101,6 +101,14 @@ button {
   height: auto;
   width: 4%;
 }
+.logosImg {
+  display: flex;
+  justify-content: center;
+}
+.logosImg .logoFooter {
+  width: 40%;
+  height: auto;
+}
 /* למכשירים ניידים */
 @media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
   * {
