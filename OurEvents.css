@@ -33,6 +33,75 @@ a {
   background-color: black;
   text-decoration: none;
 }
+.sectionForPhoto {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.photoWadding {
+  width: 37%;
+  height: auto;
+}
+.theCouple h2,
+p {
+  color: white;
+}
+
+.sectionForPhoto .theCouple h2 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.sectionForPhoto .theCouple .photoWadding {
+  width: 381px;
+  height: auto;
+}
+.photoWadding:hover {
+  width: 10%;
+  height: auto;
+}
+
+.theCouple h2,
+p {
+  text-align: center;
+  color: white;
+}
+.hr {
+  border-color: rgba(61, 60, 60, 0.705);
+  color: rgba(61, 60, 60, 0.705);
+  background-color: rgba(61, 60, 60, 0.705);
+}
+.titelForm h3 {
+  font-size: 194%;
+  color: white;
+  text-align: center;
+}
+form {
+  font-size: 151%;
+  text-align: center;
+  color: white;
+} 
+form input {
+  
+  border: none;
+  background-color: white;
+  border-radius: 40px;
+  height: 40px;
+  width: 41%;
+  text-align: center;
+}
+
+.btnClick {
+  border: none;
+  border-radius: 40px;
+  background-color: white;
+  width: 20%;
+  height: 51px;
+  font-size: 20px;
+  /* size: 100px; */
+  color: black;
+}
 
 /* למכשירים ניידים */
 @media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
@@ -69,6 +138,45 @@ a {
   a {
     background-color: black;
     text-decoration: none;
+  }
+  .photoWadding {
+    width: 100%;
+    height: auto;
+  }
+  .theCouple h2,
+  p {
+    text-align: center;
+
+    color: white;
+  }
+  form {
+    font-size: 151%;
+    text-align: center;
+    color: white;
+  }
+  .hr {
+    border-color: rgba(61, 60, 60, 0.705);
+    color: rgba(61, 60, 60, 0.705);
+    background-color: rgba(61, 60, 60, 0.705);
+  }
+  form input {
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    height: 40px;
+    width: 63%;
+    text-align: center;
+  }
+
+  .btnClick {
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    width: 20%;
+    height: 51px;
+    font-size: 20px;
+    /* size: 100px; */
+    color: black;
   }
 }
 
@@ -108,18 +216,56 @@ a {
     text-decoration: none;
   }
   .sectionForPhoto {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
- 
 
-  .photoWadding {
+  .sectionForPhoto .theCouple h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .sectionForPhoto .theCouple .photoWadding {
     width: 381px;
     height: auto;
   }
-  .theCouple h2, p {
-      color: white;
+  .photoWadding:hover {
+    width: 10%;
+    height: auto;
+  }
+
+  .theCouple h2,
+  p {
+    color: white;
+  }
+  .hr {
+    border-color: rgba(61, 60, 60, 0.705);
+    color: rgba(61, 60, 60, 0.705);
+    background-color: rgba(61, 60, 60, 0.705);
+  }
+  form {
+    font-size: 151%;
+    text-align: center;
+    color: white;
+  }
+  form input {
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    height: 40px;
+    width: 20%;
+    text-align: center;
+  }
+
+  .btnClick {
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    width: 20%;
+    height: 51px;
+    font-size: 20px;
+    /* size: 100px; */
+    color: black;
   }
 }

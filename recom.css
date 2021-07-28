@@ -1,0 +1,7 @@
+/* לטבלט */
+/* למחשב נייד */
+@media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
+}
+/* למחשב נייח */
+@media only screen and (min-width: 1110px) {
+}
