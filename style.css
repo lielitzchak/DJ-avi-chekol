@@ -165,7 +165,24 @@ button {
     width: 30%;
     border-radius: 40px;
   }
-  
+  .btnClick {
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    width: 20%;
+    height: 51px;
+    font-size: 20px;
+    color: black;
+  }
+  .logosImg {
+    display: flex;
+    justify-content: center;
+  }
+  .logosImg .logoFooter {
+    width: 40%;
+    height: auto;
+  }
+
 }
 
 /* מחשב נייח */
