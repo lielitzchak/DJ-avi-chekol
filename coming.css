@@ -1,0 +1,9 @@
+* {
+  background-color: black;
+  overflow: hidden;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+}
