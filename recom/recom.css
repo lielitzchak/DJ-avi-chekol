@@ -41,7 +41,7 @@ a {
   .Recommendations .RecommendationsIMG {
       width: 50%;
       height: auto;
-      
+
   }
   
   form {
@@ -180,7 +180,7 @@ input {
   text-align: center;
 }
 
-button {
+button .btnClick {
   border: none;
   background-color: white;
   width: 20%;
@@ -189,6 +189,10 @@ button {
   color: black;
   border: none;
   border-radius: 40px;
+}
+button .btnClick {
+    width: 20%;
+  height: 5px;
 }
 .logosImg img {
   height: auto;
