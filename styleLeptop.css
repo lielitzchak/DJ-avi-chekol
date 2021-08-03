@@ -1,0 +1,112 @@
+
+@media only screen and (min-width: 1110px) {
+    * {
+      background-color: rgba(0, 0, 0, 0.945);
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    nav {
+      display: flex;
+      background-color: var(--black);
+      justify-content: space-between;
+      align-items: center;
+    }
+    #aviLogo {
+      flex-grow: 1;
+      width: 17%;
+    }
+    ul {
+      width: 60vw;
+      background-color: var(--black);
+      display: flex;
+      flex-grow: 4;
+      /* justify-content: space-evenly; */
+    }
+  
+    li {
+      background-color: var(--black);
+      font-size: 39px;
+      color: white;
+      list-style: none;
+    }
+    a {
+      color: white;
+      background-color: var(--black);
+      text-decoration: none;
+    }
+    .aviVideo {
+      width: 100%;
+      height: 90%;
+      opacity: 0.2;
+      z-index: -1;
+    }
+  
+    .categoriesForArticle {
+      display: grid;
+      grid-template-columns: repeat(2, 32%);
+      gap: 30px;
+      justify-content: center;
+    }
+    .Categories {
+      width: 100%;
+    }
+    p {
+      color: white;
+    }
+    .imgTitel {
+      filter: grayscale(95%);
+      transition: 0.5s;
+    }
+    .imgTitel:hover {
+      filter: grayscale(0);
+    }
+  
+    .Categories img {
+      border: solid rgba(255, 255, 255, 0.048);
+      border-radius: 3%;
+      width: 100%;
+      height: 400px;
+    }
+    .Categories .TitlSmallImages {
+      text-align: center;
+      font-size: 277%;
+    }
+    .hr {
+      border-color: rgba(61, 60, 60, 0.705);
+      color: rgba(61, 60, 60, 0.705);
+      background-color: rgba(61, 60, 60, 0.705);
+    }
+    form {
+      font-size: 151%;
+      text-align: center;
+      color: white;
+    }
+    form input {
+      border: none;
+      background-color: white;
+      border-radius: 40px;
+      height: 40px;
+      width: 20%;
+      text-align: center;
+    }
+  
+    .btnClick {
+      border: none;
+      border-radius: 40px;
+      background-color: white;
+      width: 20%;
+      height: 51px;
+      font-size: 20px;
+      color: var(--black);
+    }
+    .logosImg {
+      display: flex;
+      justify-content: center;
+    }
+    .logosImg .logoFooter {
+      width: 40%;
+      height: auto;
+    }
+  }
+  

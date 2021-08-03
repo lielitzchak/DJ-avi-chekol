@@ -1,0 +1,82 @@
+@media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
+    * {
+      background-color: var(--black);
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  
+    nav {
+      display: flex;
+      background-color: var(--black);
+      justify-content: space-between;
+      word-break: keep-all;
+    }
+    #aviLogo {
+      width: 11%;
+    }
+    ul {
+      width: 60vw;
+      background-color: var(--black);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    li {
+      background-color: var(--black);
+      font-size: 86%;
+      color: white;
+      list-style: none;
+    }
+    a {
+      background-color: var(--black);
+      text-decoration: none;
+    }
+    .aviVideo {
+      width: 100%;
+      height: 90%;
+      opacity: 0.2;
+      z-index: -1;
+    }
+  
+    .TitlSmallImages {
+      font-size: 275%;
+      text-align: center;
+    }
+    .Categories h1,
+    p {
+      color: white;
+    }
+    .categoriesForArticle {
+      display: inline;
+    }
+    form input {
+      width: 50%;
+      border: none;
+      border-radius: 40px;
+    }
+    .btnClick {
+      border: none;
+      width: 30%;
+      border-radius: 40px;
+    }
+    .btnClick {
+      border: none;
+      border-radius: 40px;
+      background-color: white;
+      width: 20%;
+      height: 51px;
+      font-size: 20px;
+      color: black;
+    }
+    .logosImg {
+      display: flex;
+      justify-content: center;
+    }
+    .logosImg .logoFooter {
+      width: 40%;
+      height: auto;
+    }
+  }
+  
