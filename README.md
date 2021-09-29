@@ -1,5 +1,1 @@
-# DJ-avi-chekol
-# dj-app
-# dj-app
-# DJ-avi-chekol
-# DJ-avi-chekol
+Second project with css and html, after 3 weeks of learning html css
